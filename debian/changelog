@@ -1,3 +1,32 @@
+node-grunt-legacy-log (2.0.0-4) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.2, no changes needed.
+  * Disable colors during test (Closes: #1054167)
+
+ -- Yadd <yadd@debian.org>  Fri, 20 Oct 2023 07:45:30 +0400
+
+node-grunt-legacy-log (2.0.0-3) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+
+  [ Jenkins ]
+  * Remove constraints unnecessary since stretch.
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+    * Fix GitHub tags regex
+    * Fix filenamemangle
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Sat, 20 Nov 2021 17:04:43 +0100
+
 node-grunt-legacy-log (2.0.0-2) unstable; urgency=medium
 
   * Team upload
